@@ -1,0 +1,40 @@
+{
+  "name": "local-authenticator-demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- -- index.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^2.10.2",
+    "bluebird-nodeify": "^1.1.0",
+    "body-parser": "^1.15.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.11.1",
+    "express-then": "^1.0.3",
+    "lodash": "^3.10.1",
+    "mongoose": "^4.4.10",
+    "morgan": "^1.7.0",
+    "nodeifyit": "^1.0.2",
+    "ntwitter": "^0.5.0",
+    "passport": "^0.2.1",
+    "passport-facebook": "^2.1.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "require-dir": "^0.3.0",
+    "simple-bodyparser": "0.0.4",
+    "songbird": "^1.0.2",
+    "trycatch": "^1.5.21",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.7.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
+    "babel-plugin-transform-strict-mode": "^6.6.5",
+    "babel-preset-stage-1": "^6.5.0",
+    "webpack": "^1.12.14"
+  }
+}
